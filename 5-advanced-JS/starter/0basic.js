@@ -7,7 +7,9 @@ var julian = {
     job: "SDE"
 };
 
-//Person constructor/class
+//Person function constructor/class: 
+// Captial letter
+// for multiple person objs in the future
 var Person = function (name, birthYear, job) {
     this.name = name;
     this.birthYear = birthYear;
